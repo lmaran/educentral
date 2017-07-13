@@ -1,0 +1,8 @@
+<fw-menu
+    [class.is-hidden]="!menuService.leftSideMenuIsVisible"
+    [class.off-canvas]="menuService.leftSideMenuIsOffCanvas">
+</fw-menu>
+
+<div class="body-style">
+    <router-outlet></router-outlet>
+</div>

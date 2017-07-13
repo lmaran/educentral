@@ -1,0 +1,12 @@
+:host {
+    display: flex;
+    _ackground-color: #f0fff0; 
+    flex-grow: 1;
+    position: relative; /* set it as a relative position for the off-canvas left side menu */
+}
+
+.body-style {
+    padding: 20px;
+    flex-grow: 1;
+    overflow: auto;
+}

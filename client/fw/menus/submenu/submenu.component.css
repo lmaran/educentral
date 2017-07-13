@@ -1,0 +1,13 @@
+:host {
+    position: static;
+    display: block;
+    width: 100%;
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    padding: 2px 0 0 0;
+}
+
+:host(.is-hidden) {
+    display:none
+}
